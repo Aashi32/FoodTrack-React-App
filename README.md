@@ -41,13 +41,9 @@ Google Login<br>
 CSS for styling<br>
 
 ## Screenshots
-![Screenshot 2024-07-21 185848](https://github.com/user-attachments/assets/9996de8c-13e9-4ae8-bc7a-65e6676c2795)
-
-![Screenshot 2024-07-21 185957](https://github.com/user-attachments/assets/b6b267e2-34e9-4cd7-8a7f-8134b0d46c81)
-![Screenshot 2024-07-21 190046](https://github.com/user-attachments/assets/74d24678-7fc6-4c1a-bfda-a68d611f11f1)
-![Screenshot 2024-07-21 190103](https://github.com/user-attachments/assets/7f411a67-fc97-465e-92cd-38145c8a1a55)
-![Screenshot 2024-07-21 190128](https://github.com/user-attachments/assets/4f967ba0-855f-4e6f-83a1-e18c7d4f2c13)
-![Screenshot 2024-07-21 190139](https://github.com/user-attachments/assets/1dad75a2-2f34-4a95-b12a-bac5e059d5bb)
+![Screenshot 2024-07-21 185848](https://github.com/user-attachments/assets/9996de8c-13e9-4ae8-bc7a-65e6676c2795) ![Screenshot 2024-07-21 185957](https://github.com/user-attachments/assets/b6b267e2-34e9-4cd7-8a7f-8134b0d46c81)
+![Screenshot 2024-07-21 190046](https://github.com/user-attachments/assets/74d24678-7fc6-4c1a-bfda-a68d611f11f1) ![Screenshot 2024-07-21 190103](https://github.com/user-attachments/assets/7f411a67-fc97-465e-92cd-38145c8a1a55)
+![Screenshot 2024-07-21 190128](https://github.com/user-attachments/assets/4f967ba0-855f-4e6f-83a1-e18c7d4f2c13) ![Screenshot 2024-07-21 190139](https://github.com/user-attachments/assets/1dad75a2-2f34-4a95-b12a-bac5e059d5bb)
 
 
 ## Contributing
