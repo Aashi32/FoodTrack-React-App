@@ -1,0 +1,548 @@
+/* General styles for the entire app */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: floralwhite;
+}
+
+.container {
+
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;  
+  height: 400px;
+  width: 311px;
+  text-align: left;
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("/images/background.png"); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: sans-serif;
+  height: 400px;
+  width: 380px;
+  margin: auto;
+  
+}
+
+
+.home .container {
+  background: #FE8C00;
+}
+
+.circle-button {
+  border: 1px;
+  background: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.circle-button svg {
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+
+.slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.slider .bar {
+  width: 30px;
+  height: 5px;
+  background: #ccc;
+  margin: 0 2px;
+  border-radius: 2px;
+}
+
+.slider .bar.active {
+  background: #000;
+}
+
+.container1{
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+  margin: auto; 
+  margin-top: 40px;
+
+}
+
+.buttons button {
+  background: #FE8C00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+  margin-top: 160px;
+}
+
+.buttons button3 {
+  background: #FE8C00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.buttons button:hover {
+  /* background: #FF8800; */
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  width: 100%;
+  background-color: #FE8C00;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ } 
+
+.button:hover {
+  background-color: #d6e5f6;
+}
+
+.forgot-password {
+  color: orange;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  float: right;
+}
+
+.or-separator {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.or-separator hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.or-separator span {
+  margin: 0 0.5rem;
+  color: #666;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  
+}
+
+.google-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-input-container {
+  position: relative; 
+  display: flex;
+  align-items: center;
+}
+
+.password-input-container input[type="password"] {
+  padding-right: 30px; 
+  padding-left: 10px;
+ flex: 1 ;
+}
+
+.password-eye {
+  position: absolute; 
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  cursor: pointer;
+  z-index: 1; 
+  
+}
+
+.password-eye i {
+  font-size: 16px; 
+  color: #111111; 
+  margin-bottom: 1rem;
+}
+
+.terms-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+.terms-label{
+  display: flex;
+  align-items: center;
+}
+
+.terms-label input[type="checkbox"]{
+  margin-right: 10px;
+}
+
+.show-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.google-options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.google-options button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.google-options button:hover {
+  background: #f0f0f0;
+}
+
+h1,p {
+  margin-top: 0;
+  text-align: left;
+  /* margin-bottom: 20px; */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color:orange;
+  color: #fff;
+  padding: 10px 170px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button[type="button"] {
+  background-color: #fff;
+  border: 1px;
+  padding: 10px;
+  cursor: pointer;
+  width: 400px;
+height: 40px;
+top: 579px;
+left: 24px;
+gap: 16px;
+opacity: 0px;
+
+
+  
+}
+
+button[type="button"] img {
+  width: 24px;
+  height: 24px;
+padding: 8px 0px 0px 0px;
+gap: 0px;
+border-radius: 0px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+a:hover {
+  color: #a5cdf0;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-link a {
+  text-decoration: none;
+  color: orange;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+} 
+
+
+
+/* successpage */
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("/images/background.png"); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: sans-serif;
+  height: 400px;
+  width: 380px;
+  margin: auto;
+}
+
+.success-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: white; */
+}
+
+.success-content {
+  text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 400px;
+}
+
+
+.success-icon {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.success-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.success-message {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.button-success {
+  margin: 10px 0;
+  background-color: #fe8c00;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 40px;
+  cursor: pointer; 
+  pointer-events: auto; 
+  z-index: 1;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  
+}
+
+
+.button-success:hover {
+  background-color: #d6e5f6;
+}
+
+
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: white;
+  color: #878787;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+/* Tracking Component Styles */
+.tracking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  height: 400px;
+  width: 380px;
+  margin: auto;
+}
+
+.tracking-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 251, 251, 0.5);
+}
+
+.tracking-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.analog-clock {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+.analog-clock svg {
+  transform: rotate(-90deg);
+}
+
+.analog-clock line {
+  transition: transform 0.5s;
+}
+
+.slider-container {
+  margin: 20px;
+}
+
+.slider-container input[type="range"] {
+  width: 100%;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 20px;
+}
