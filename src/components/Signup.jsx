@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { GoogleLogin } from 'google-login-react';
 
 const YOUR_CLIENT_ID = '1024374663485-cgjq8t8pgcmvckach0plh71gohu55tud.apps.googleusercontent.com'; 
+const REDIRECT_URI =   "https://foodapp-using-react.netlify.app";
 
 function Signup() {
   const [email, setEmail] = useState("");
@@ -154,7 +155,7 @@ function Signup() {
       <div className="google-button-container">
         <GoogleLogin
           clientId={YOUR_CLIENT_ID}
-          redirectUri = "https://foodapp-using-react.netlify.app"
+          redirectUri = {REDIRECT_URI}
           onSuccess={handleGoogleLoginSuccess}
           onFailure={handleGoogleLoginFailure}
           cookiePolicy={'single_host_origin'}
