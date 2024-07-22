@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    git clone https://github.com/Aashi32/FoodTrack-React-App.git
 2. Navigate to the project directory:
-   cd FoodTrack
+   cd FoodTrack-React-App
 3. Install the dependencies:
    npm install
 4. Start the development server:
@@ -35,9 +35,9 @@ Use the login page to sign in with your email and password or with Google.<br/>
 Access the tracking screen after logging in to use the clock, slider, and share features.<br/>
 
 ## Technologies Used
-React
-React Router
-Google Login
+React <br/>
+React Router<br/>
+Google Login<br/>
 CSS for styling
 
 ## Screenshots
