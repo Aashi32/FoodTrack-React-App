@@ -41,15 +41,15 @@ Google Login
 CSS for styling
 
 ## Screenshots
+![Screenshot 2024-07-21 185848](https://github.com/user-attachments/assets/c9b8b527-2f13-44fc-b743-3426577351d7)   ![Screenshot 2024-07-21 185957](https://github.com/user-attachments/assets/d0bc081e-24f2-4322-bfc1-9dd13888b028)
+
+![Screenshot 2024-07-21 190046](https://github.com/user-attachments/assets/b87c8b5b-2cfb-4ec6-b1f9-804fac618b69)   ![Screenshot 2024-07-21 190103](https://github.com/user-attachments/assets/f4ae281a-cfc7-44ae-9e29-eec56c8aedee)
+
+![Screenshot 2024-07-21 190128](https://github.com/user-attachments/assets/64bbdda4-fce0-4eac-8f74-d68aa9d2cc4a)   ![Screenshot 2024-07-21 190139](https://github.com/user-attachments/assets/f39de517-abba-4aeb-b18d-ae2611934dab)
 
 
 
-![Screenshot 2024-07-21 190139](https://github.com/user-attachments/assets/f39de517-abba-4aeb-b18d-ae2611934dab)
-![Screenshot 2024-07-21 190128](https://github.com/user-attachments/assets/64bbdda4-fce0-4eac-8f74-d68aa9d2cc4a)
-![Screenshot 2024-07-21 190103](https://github.com/user-attachments/assets/f4ae281a-cfc7-44ae-9e29-eec56c8aedee)
-![Screenshot 2024-07-21 190046](https://github.com/user-attachments/assets/b87c8b5b-2cfb-4ec6-b1f9-804fac618b69)
-![Screenshot 2024-07-21 185957](https://github.com/user-attachments/assets/d0bc081e-24f2-4322-bfc1-9dd13888b028)
-![Screenshot 2024-07-21 185848](https://github.com/user-attachments/assets/c9b8b527-2f13-44fc-b743-3426577351d7)
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
