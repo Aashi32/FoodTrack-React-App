@@ -116,7 +116,7 @@ function Login() {
         <div className="google-button-container">
           <GoogleLogin
             clientId={YOUR_CLIENT_ID}
-            redirectUri = "https://669dea61941377366ef1e1bb--symphonious-peony-e02c7b.netlify.app/"
+            redirectUri = "https://foodapp-using-react.netlify.app"
             onSuccess={handleGoogleLoginSuccess}
             onFailure={handleGoogleLoginFailure}
             cookiePolicy={'single_host_origin'}
